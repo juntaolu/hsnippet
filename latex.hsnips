@@ -133,7 +133,6 @@ snippet qmc "standard multinomial coefficient" iA
 endsnippet
 
 
-
 snippet unn "union"
 \cup
 endsnippet
