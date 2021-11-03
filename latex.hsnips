@@ -145,3 +145,7 @@ endsnippet
 snippet abs "abs" iA
 |$1|$0
 endsnippet
+
+snippet asc "asc" iA
+\big|
+endsnippet
