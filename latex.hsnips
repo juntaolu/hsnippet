@@ -97,7 +97,7 @@ snippet cb "^3" iA
 ^3
 endsnippet
 
-snippet compl "complement" iA
+snippet compl "complement" 
 ^{c}
 endsnippet
 
