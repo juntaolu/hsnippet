@@ -2,7 +2,7 @@ snippet dategreeting "Gives you the current date!" b
 Hello from your hsnip at ``rv = new Date().toDateString()``!
 endsnippet
 
-snippet beg "mirror begin and end" bA
+snippet bgg "mirror begin and end" bA
 \begin{$1}
 
 $0
@@ -163,3 +163,14 @@ snippet ifig "ink figure"
 
     $0
 endsnippet
+
+
+snippet cp "chromatic polynomial" 
+\chi_{$1}(n)$0
+endsnippet
+
+
+snippet iit "italic"
+\textit{$1}$0
+endsnippet
+
