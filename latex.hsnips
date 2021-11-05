@@ -11,19 +11,32 @@ $0
 endsnippet
 
 
-snippet theorem "start a theorem" bA
+snippet theorem "start a theorem" b
 \begin{theorem}[$1]
     $0
 \end{theorem}
 endsnippet
 
 
-snippet definition "start a definition" bA
+snippet def "start a definition" b
 \begin{definition}[$1]
     $0
 \end{definition}
 endsnippet
 
+snippet lemma "start a theorem" b
+\begin{lemma}
+    $1
+\end{lemma}
+$0
+endsnippet
+
+snippet corollary "start a theorem" b
+\begin{corollary}
+    $1
+\end{corollary}
+$0
+endsnippet
 
 snippet solve "solution" 
 \textbf{Solution:}
@@ -114,7 +127,7 @@ snippet bw "backward" iA
 endsnippet
 
 
-snippet ni "noindent" bA
+snippet ni "noindent" 
 \noindent
 endsnippet
 
