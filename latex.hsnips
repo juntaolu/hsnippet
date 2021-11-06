@@ -187,3 +187,6 @@ snippet iit "italic"
 \textit{$1}$0
 endsnippet
 
+snippet ww "math mode" iA 
+$$1$$0
+endsnippet
