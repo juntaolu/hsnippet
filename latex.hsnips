@@ -190,3 +190,19 @@ endsnippet
 snippet mm "math mode" wA 
 $$1$$0
 endsnippet
+
+
+snippet rta "rightarrow" wA
+\rightarrow
+endsnippet
+
+
+snippet lta "rightarrow" wA
+\leftarrow
+endsnippet
+
+
+
+snippet lra "rightarrow" wA
+\leftritgharrow
+endsnippet
