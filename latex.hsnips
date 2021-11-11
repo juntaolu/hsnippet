@@ -102,7 +102,7 @@ snippet ^^ "Auto supertext" iA
 ^{$1}$0
 endsnippet
 
-snippet sr "^2" iA
+snippet sr "^2" wA
 ^2
 endsnippet
 
@@ -161,7 +161,7 @@ endsnippet
 
 
 
-snippet sum "sum" 
+snippet sum "sum" i
 \sum_{$1}^{$2}$0
 endsnippet
 
@@ -169,9 +169,9 @@ endsnippet
 snippet ifig "ink figure"
 \begin{figure}[ht]
     \centering
-    \incfig{$1}
-    \caption{$2}
-    \label{$2}
+    \incfig{$1}{$2}
+    \caption{$3}
+    \label{$3}
 \end{figure}
 
     $0
@@ -205,4 +205,35 @@ endsnippet
 
 snippet lra "rightarrow" wA
 \leftritgharrow
+endsnippet
+
+
+snippet cd "cdot" iA
+\cdot 
+endsnippet
+
+
+snippet fc "fraction" iA
+\frac{$1}{$2}$0
+endsnippet
+
+
+snippet ds "display" iA
+\displaystyle
+endsnippet
+
+
+snippet vc "vector" iA
+\mathbf{$1}$0
+endsnippet
+
+
+
+snippet cls "Closure" iA
+\overline{$1}$0
+endsnippet
+
+
+snippet seq "sequence" i
+\{$1_n \\}$0 
 endsnippet
