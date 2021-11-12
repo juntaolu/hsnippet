@@ -218,7 +218,7 @@ snippet fc "fraction" iA
 endsnippet
 
 
-snippet ds "display" iA
+snippet ds "display" wA
 \displaystyle
 endsnippet
 
