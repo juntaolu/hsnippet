@@ -237,3 +237,14 @@ endsnippet
 snippet seq "sequence" i
 \{$1_n \\}$0 
 endsnippet
+
+
+
+snippet fl "fl" iA
+\flat
+endsnippet
+
+
+snippet sp "sharp" iA 
+\sharp
+endsnippet
