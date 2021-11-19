@@ -187,7 +187,7 @@ snippet iit "italic"
 \textit{$1}$0
 endsnippet
 
-snippet mm "math mode" wA 
+snippet qq "math mode" wA 
 $$1$$0
 endsnippet
 
@@ -239,12 +239,25 @@ snippet seq "sequence" i
 endsnippet
 
 
-
-snippet fl "fl" iA
-\flat
+snippet ccg "cg" iA
+\mathcal{C}_g
 endsnippet
 
 
-snippet sp "sharp" iA 
-\sharp
+snippet cch "cg" iA
+\mathcal{C}_h
+endsnippet
+
+
+
+snippet bb "space" iA
+\,
+endsnippet
+
+
+
+
+
+snippet exx "example" iA
+\textbf{Example $1.}$0
 endsnippet
