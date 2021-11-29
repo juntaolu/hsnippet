@@ -187,12 +187,12 @@ snippet iit "italic"
 \textit{$1}$0
 endsnippet
 
-snippet qq "math mode" wA 
+snippet qq "math mode" iA 
 $$1$$0
 endsnippet
 
 
-snippet rta "rightarrow" wA
+snippet rta "rightarrow" iA
 \rightarrow
 endsnippet
 
