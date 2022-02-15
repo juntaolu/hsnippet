@@ -261,3 +261,14 @@ endsnippet
 snippet exx "example" iA
 \textbf{Example $1.}$0
 endsnippet
+
+
+
+snippet spg "Sylow p-subgroup" iA
+Sylow \$p\$-subgroup
+endsnippet
+
+
+snippet sng "Sylow p-subgroup" iA
+Sylow $1-subgroup$0
+endsnippet
