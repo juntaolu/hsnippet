@@ -272,3 +272,8 @@ endsnippet
 snippet sng "Sylow p-subgroup" iA
 Sylow $1-subgroup$0
 endsnippet
+
+
+snippet nnm "NNM" iA
+non-negative measurable
+endsnippet
