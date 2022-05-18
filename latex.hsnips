@@ -102,13 +102,7 @@ snippet ^^ "Auto supertext" iA
 ^{$1}$0
 endsnippet
 
-snippet sr "^2" wA
-^2
-endsnippet
 
-snippet cb "^3" iA
-^3
-endsnippet
 
 snippet compl "complement" 
 ^{c}
