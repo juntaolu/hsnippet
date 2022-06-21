@@ -265,3 +265,8 @@ endsnippet
 snippet nnm "NNM" iA
 non-negative measurable
 endsnippet
+
+
+snippet ov "overline" iA
+\overline{$1}$0
+endsnippet
