@@ -93,12 +93,12 @@ endsnippet
 
 
 priority 100
-snippet __ "Auto subtext" iA
+snippet __ "Auto subtext" A
 _{$1}$0
 endsnippet
 
 priority 100
-snippet ^^ "Auto supertext" iA
+snippet ^^ "Auto supertext" A
 ^{$1}$0
 endsnippet
 
@@ -108,15 +108,15 @@ snippet compl "complement"
 ^{c}
 endsnippet
 
-snippet td "superscript" iA
+snippet td "superscript" A
 ^{$1}$0
 endsnippet
 
-snippet fw "forward" iA
+snippet fw "forward" A
 ($\Rightarrow$)
 endsnippet
 
-snippet bw "backward" iA
+snippet bw "backward" A
 ($\Leftarrow$)
 endsnippet
 
@@ -125,17 +125,17 @@ snippet ni "noindent"
 \noindent
 endsnippet
 
-snippet sbs "subset" iA
+snippet sbs "subset" A
 \subseteq 
 endsnippet
 
-snippet chs "choose" iA
+snippet chs "choose" A
 {$1 \choose $2}$0
 endsnippet
 
 
 
-snippet qmc "standard multinomial coefficient" iA 
+snippet qmc "standard multinomial coefficient" A 
 {n \choose n_1, n_2,...,n_d}
 endsnippet
 
@@ -149,7 +149,7 @@ snippet inn "intersection"
 \cap
 endsnippet
 
-snippet abs "abs" iA
+snippet abs "abs" A
 |$1|$0
 endsnippet
 
@@ -181,12 +181,12 @@ snippet iit "italic"
 \textit{$1}$0
 endsnippet
 
-snippet qq "math mode" iA 
+snippet qq "math mode" A 
 $$1$$0
 endsnippet
 
 
-snippet rta "rightarrow" iA
+snippet rta "rightarrow" A
 \rightarrow
 endsnippet
 
@@ -202,12 +202,12 @@ snippet lra "rightarrow" wA
 endsnippet
 
 
-snippet cd "cdot" iA
+snippet cd "cdot" A
 \cdot 
 endsnippet
 
 
-snippet fc "fraction" iA
+snippet fc "fraction" A
 \frac{$1}{$2}$0
 endsnippet
 
@@ -217,28 +217,23 @@ snippet ds "display" wA
 endsnippet
 
 
-snippet vc "vector" iA
+snippet vc "vector" A
 \mathbf{$1}$0
 endsnippet
 
 
 
-snippet cls "Closure" iA
+snippet cls "Closure" A
 \overline{$1}$0
 endsnippet
 
 
-snippet seq "sequence" i
-\{$1_n \\}$0 
-endsnippet
-
-
-snippet ccg "cg" iA
+snippet ccg "cg" A
 \mathcal{C}_g
 endsnippet
 
 
-snippet cch "cg" iA
+snippet cch "cg" A
 \mathcal{C}_h
 endsnippet
 
@@ -246,27 +241,27 @@ endsnippet
 
 
 
-snippet exx "example" iA
+snippet exx "example" A
 \textbf{Example $1.}$0
 endsnippet
 
 
 
-snippet spg "Sylow p-subgroup" iA
+snippet spg "Sylow p-subgroup" A
 Sylow \$p\$-subgroup
 endsnippet
 
 
-snippet sng "Sylow p-subgroup" iA
+snippet sng "Sylow p-subgroup" A
 Sylow $1-subgroup$0
 endsnippet
 
 
-snippet nnm "NNM" iA
+snippet nnm "NNM" A
 non-negative measurable
 endsnippet
 
 
-snippet ov "overline" iA
+snippet ov "overline" A
 \overline{$1}$0
 endsnippet
