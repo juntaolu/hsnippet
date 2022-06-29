@@ -93,12 +93,12 @@ endsnippet
 
 
 priority 100
-snippet __ "Auto subtext" A
+snippet __ "Auto subtext" iA
 _{$1}$0
 endsnippet
 
 priority 100
-snippet ^^ "Auto supertext" A
+snippet ^^ "Auto supertext" iA
 ^{$1}$0
 endsnippet
 
