@@ -239,6 +239,10 @@ endsnippet
 
 
 
+snippet mp "Matrix" A 
+\begin{pmatrix}    $1   \end{pmatrix} $0 
+endsnippet
+
 
 
 snippet exx "example" A
@@ -262,6 +266,6 @@ non-negative measurable
 endsnippet
 
 
-snippet ov "overline" A
+snippet ov "overline" v
 \overline{$1}$0
 endsnippet
