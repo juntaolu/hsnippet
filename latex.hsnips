@@ -269,3 +269,14 @@ endsnippet
 snippet ov "overline" v
 \overline{$1}$0
 endsnippet
+
+
+snippet ssolve "solution" A 
+\color{magenta} 
+
+
+\textbf{Solution:} $1
+
+
+\color{black} 
+endsnippet
