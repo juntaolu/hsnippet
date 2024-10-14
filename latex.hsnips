@@ -190,6 +190,11 @@ snippet rta "rightarrow" A
 \rightarrow
 endsnippet
 
+snippet Rta "rightarrow" A
+\Rightarrow 
+endsnippet
+
+
 
 snippet lta "rightarrow" wA
 \leftarrow
