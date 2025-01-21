@@ -50,6 +50,11 @@ snippet ant "alignat*"
 endsnippet
 
 
+snippet ses "short exact sequence"
+0 \rightarrow $1 \overset{$2}{ \longrightarrow } $3 \overset{$4}{ \longrightarrow} $5 \rightarrow 0   $0
+endsnippet 
+
+
 
 
 
